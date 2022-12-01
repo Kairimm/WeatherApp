@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <script src="../scripts/script.js" defer></script>
+</head>
+<body>
+<header>
+    <div class="w-screen h-[7rem]">
+        <div class="mx-auto w-[80%]">
+            <div class="flex justify-center items-center">
+                <input type="text"
+                       class="w-[100%] outline-none h-[3.5rem] mt-[3rem] bg-lightgrey rounded-2xl placeholder:text-grey relative text-input pl-5"
+                       placeholder="Search Location">
+                <img src="../icons/Icon%20ionic-md-search.svg" class="h-[7%] w-[7%] absolute mt-[1.5rem] right-16"
+                     alt="icon_search">
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="h-[20rem] w-[80%] mx-auto mt-5">
+        <div class="blur-[40px] bg-opacity-[20%] bg-yellow z-0 h-[35%] w-[80%] absolute"></div>
+        <img src="../images/weather_clear_day.svg" class="z-10 relative" alt="">
+    </div>
+    <div class="h-[20%] w-[80%] mx-auto">
+        <div class="flex justify-center items-center">
+            <h2 class="text-5xl font-bold location-name"></h2>
+            <img src="../icons/Icon%20awesome-location-arrow.svg" class="h-[11%] w-[11%] ml-3" alt="">
+        </div>
+        <div class="flex justify-center mt-5">
+            <h1 class="text-9xl font-bold temperature"></h1>
+            <img src="../icons/Icon-md-degrees.svg" class="h-[5%] w-[5%]" alt="">
+        </div>
+    </div>
+    <div class="w-[80%] h-[5.5rem] bg-lightgrey mx-auto rounded-2xl grid grid-cols-4 mt-5">
+        <div class="mt-2 col-span-1 flex flex-col items-center">
+            <h2 class="text-md text-grey">TIME</h2>
+            <h3 class="date-time mt-2 text-2xl text-darkgrey date"></h3>
+        </div>
+        <div class="mt-2 col-span-1 flex flex-col items-center">
+            <h2 class="text-md text-grey">WIND</h2>
+            <h3 class="date-time mt-2 text-2xl text-darkgrey wind-speed flex"></h3>
+        </div>
+        <div class="mt-2 col-span-1 flex flex-col items-center">
+            <h2 class="text-md text-grey">% HUM</h2>
+            <h3 class="date-time mt-2 text-2xl text-darkgrey humidity-meter"></h3>
+        </div>
+        <div class="mt-2 col-span-1 flex flex-col items-center">
+            <h2 class="text-md text-grey">FL</h2>
+            <h3 class="date-time mt-2 text-2xl text-darkgrey feels-like"></h3>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>

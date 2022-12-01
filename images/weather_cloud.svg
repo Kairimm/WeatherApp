@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="CLOUD" transform="matrix(8.69394,0,0,8.69394,-22.7537,-26.9094)">
+        <path d="M20.478,18.393C26.696,14.376 32.052,14.636 35.845,22.65C41.25,24.07 43.126,26.206 43.017,29.676C42.921,32.735 41.413,35.107 37.629,36.345L13.745,36.336C9.15,34.931 8.282,31.815 8.225,29.601C8.159,27.033 9.662,24.824 12.518,23.369C13.997,19.311 16.631,17.615 20.478,18.393Z" style="fill:rgb(236,234,237);"/>
+        <path d="M20.478,18.393C16.588,21.57 14.114,25.056 14.551,29.18C15.1,33.383 24.694,34.95 30.883,35.39C34.301,35.633 36.104,36.432 36.9,36.345L13.583,36.345C10.033,35.358 8.386,32.992 8.223,29.554C8.177,26.702 9.896,24.742 12.657,23.308C14.138,18.738 16.95,17.635 20.478,18.393Z" style="fill:rgb(219,219,224);"/>
+    </g>
+</svg>
