@@ -1,6 +1,6 @@
 let locatie = 'Wedde';
 let apiURLL = `http://api.openweathermap.org/geo/1.0/direct?q=${locatie}&limit=5&appid=`;
-let apiKey = 'd3ce7a3d52df04ef8d1a929d734c66df';
+let apiKey = '';
 
 window.onload = (() => {
     fetch(`${apiURLL}${apiKey}`)
